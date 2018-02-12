@@ -8,7 +8,7 @@ use org\bovigo\vfs\vfsStream;
 use org\bovigo\vfs\vfsStreamFile;
 use Staempfli\Pdf\Test\Service\FakePdfFile;
 
-class FakePdfFileTest extends \PHPUnit_Framework_TestCase
+class FakePdfFileTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var \Staempfli\Pdf\Test\Service\FakePdfFile

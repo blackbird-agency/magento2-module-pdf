@@ -9,7 +9,7 @@ use Magento\Framework\App\Response\Http as HttpResponse;
 use Magento\TestFramework\ObjectManager;
 use Staempfli\Pdf\Model\View\PdfResult;
 
-class PdfResultTest extends \PHPUnit_Framework_TestCase
+class PdfResultTest extends \PHPUnit\Framework\TestCase
 {
     /** @var  ObjectManager */
     protected $objectManager;

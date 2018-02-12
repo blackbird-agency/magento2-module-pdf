@@ -13,7 +13,7 @@ use Staempfli\Pdf\Service\Pdf;
 use Staempfli\Pdf\Service\PdfOptions;
 
 
-class PdfTest extends \PHPUnit_Framework_TestCase
+class PdfTest extends \PHPUnit\Framework\TestCase
 {
     /** @var FakePdfEngine */
     private $fakePdfEngine;

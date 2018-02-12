@@ -9,7 +9,7 @@ use Staempfli\Pdf\Test\Service\FakeSourceDocument;
 use Staempfli\Pdf\Service\PdfAppendContent;
 use Staempfli\Pdf\Service\PdfOptions;
 
-class FakeSourceDocumentTest extends \PHPUnit_Framework_TestCase
+class FakeSourceDocumentTest extends \PHPUnit\Framework\TestCase
 {
     public function testPrintToMedium()
     {

@@ -12,7 +12,7 @@ use Staempfli\Pdf\Test\Service\FakePdfEngine;
 use Staempfli\Pdf\Service\PdfAppendContent;
 use Staempfli\Pdf\Service\PdfOptions;
 
-class PdfTemplateTest extends \PHPUnit_Framework_TestCase
+class PdfTemplateTest extends \PHPUnit\Framework\TestCase
 {
     /** @var  ObjectManager */
     protected $objectManager;

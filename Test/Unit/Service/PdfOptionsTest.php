@@ -6,7 +6,7 @@ namespace Staempfli\Pdf\Test\Unit\Service;
 
 use Staempfli\Pdf\Service\PdfOptions;
 
-class PdfOptionsTest extends \PHPUnit_Framework_TestCase
+class PdfOptionsTest extends \PHPUnit\Framework\TestCase
 {
     public static function dataMerge()
     {

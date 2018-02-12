@@ -12,7 +12,7 @@ use Staempfli\Pdf\Model\PdfFactory;
 use Staempfli\Pdf\Test\Service\FakeSourceDocument;
 use Staempfli\Pdf\Service\PdfOptions;
 
-class WkPdfEngineTest extends \PHPUnit_Framework_TestCase
+class WkPdfEngineTest extends \PHPUnit\Framework\TestCase
 {
     /** @var  ObjectManager */
     protected $objectManager;

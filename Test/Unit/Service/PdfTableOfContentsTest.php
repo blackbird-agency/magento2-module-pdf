@@ -8,7 +8,7 @@ use Staempfli\Pdf\Test\Service\FakePdfEngine;
 use Staempfli\Pdf\Service\PdfOptions;
 use Staempfli\Pdf\Service\PdfTableOfContents;
 
-class PdfTableOfContentsTest extends \PHPUnit_Framework_TestCase
+class PdfTableOfContentsTest extends \PHPUnit\Framework\TestCase
 {
     /** @var FakePdfEngine */
     private $pdfEngine;

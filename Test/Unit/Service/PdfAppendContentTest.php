@@ -8,7 +8,7 @@ use Staempfli\Pdf\Test\Service\FakePdfEngine;
 use Staempfli\Pdf\Service\PdfAppendContent;
 use Staempfli\Pdf\Service\PdfOptions;
 
-class PdfAppendContentTest extends \PHPUnit_Framework_TestCase
+class PdfAppendContentTest extends \PHPUnit\Framework\TestCase
 {
     /** @var  FakePdfEngine */
     private $pdfEngine;
