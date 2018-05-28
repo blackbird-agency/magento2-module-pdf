@@ -18,7 +18,7 @@ use Staempfli\Pdf\Model\PdfResponseFactory;
  *
  * For more advanced options, use renderSourceDocument() to get a source document you can pass into the Pdf service
  */
-class PdfResult extends AbstractResult
+class PdfResult
 {
     const TYPE = 'pdf';
 
